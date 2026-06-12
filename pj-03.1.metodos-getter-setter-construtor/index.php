@@ -12,9 +12,11 @@
             require_once 'caneta.php';
             $c1 = new Caneta ("BIC", "Azul", 0.5);
             $c2 = new Caneta ("PILOT", "Preta", 0.7);
+            $c3 = new Caneta ("Kilometrica", "Verde", 1.0);
 
             print_r($c1);
             print_r($c2);
+            print_r($c3);
 
             // echo "Eu tenho uma caneta {$c1->getModelo()} de ponta {$c1->getPonta()}";
         ?>

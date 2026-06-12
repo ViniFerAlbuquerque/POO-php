@@ -12,23 +12,24 @@
     <header>
         <pre>
         <?php
-        require_once 'caneta.php';
-        $c1 = new Caneta;
-        $c1->modelo = "BIC cristal";
-        $c1->cor= "Dourado";
-        //$c1->ponta = 0.5;
-        //$c1->carga = 99;
-        //$c1->tampada = true;
-        
+            require_once 'Caneta.php';
+            $c1 = new Caneta;
+            $c1->modelo = "BIC cristal";
+            $c1->cor = "Dourado";
+            // $c1->ponta = 0.5;
+            // $c1->carga = 99;
+            //$c1->tampada = true;
 
-        // var_dump($c1);
 
-                $c1->rabiscar();
-                $c1->tampar();
-                        print_r($c1);
-        ?>
+            // var_dump($c1);
+
+            $c1->rabiscar();
+            $c1->tampar();
+            print_r($c1);
+            ?>
+   
+        </pre>
     </header>
-    </pre>
     <footer><a href="javascript:history.back()">Voltar</a></footer>
 
 </body>
